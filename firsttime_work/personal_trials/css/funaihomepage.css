@@ -1,0 +1,26 @@
+div ul{
+    list-style-type: none;
+    text-align: center;
+
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.topbar{
+ color: #232323;
+}
+div a{
+    padding-left: 115px;
+    padding-top: 10px;
+    
+}
+div a img{
+    width: 232px;
+}
+.third-topbar{
+    color: #555;
+    font: 13px;
+    padding: 8px;
+    font-family: robotoslab' ;
+}

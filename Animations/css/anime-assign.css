@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+}
+div img{
+    width: 100%;
+    height: auto;
+}
+.ball{
+    border-radius: 50%;
+    background-color: black;
+    width: 50px;
+    height: 45px;
+    margin-top: -190px;
+    position: relative;
+    margin-left: 48%;
+    animation-name: newanimation;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+@keyframes newanimation {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 200px, 0);
+    }
+}

@@ -1,0 +1,22 @@
+.container{
+    background-image: url(../../images/sunlight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+}
+header{
+    width: 100%;
+    min-height: 100px;
+    background-color: beige;
+    opacity: 0.3;
+    /* padding: 20px; */
+}
+header nav a{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+
+}
+footer{
+    color: azure;;
+}

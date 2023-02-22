@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #a6a6a6;
+}
+.outer{
+    background-image: url(../../../images/outerbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+.inner{
+    height: calc(100vh - 100px);
+    width: calc(100% - 100px);
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.4);
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    /* background-image: url(../../../images/bg3.jpg) ; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center right; */
+    /* background-size: contain; */
+
+}
+header{
+    height: 100px;
+    padding:0 50px;
+}
+.logo{
+    float: left;
+    line-height: 100px;
+    width: 110px;
+    height: 95px;
+}
+nav{
+    float: right;
+    line-height: 100px;
+}
+nav ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+ul li a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.4rem;
+
+}
+main{
+    position: relative;
+    border: blueviolet solid 1px;
+    /* overflow: hidden; */
+}
+.leftcontent{
+    float: left;
+    width: 30%;
+    margin-top: 30px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.rightcontent{
+    float: right;
+}
+
+.img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.leftcontent h1:first-child{
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: -20px;
+}
+.leftcontent h1:nth-child(2){
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.leftcontent p{
+    margin: 1.5mm 0;
+}
+.cta{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    background-color: blueviolet;
+}
+.signin-btn{
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 50px;
+    background-color: blueviolet;
+}
